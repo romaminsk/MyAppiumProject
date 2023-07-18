@@ -2,7 +2,11 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
 <suite name="Appium">
+
     <test name="Pixel">
+
+        <parameter name="platform" value="android"/>
+
         <classes>
             <class name="AVTest">
                 <methods>
@@ -11,4 +15,5 @@
             </class>
         </classes>
     </test>
+
 </suite>
